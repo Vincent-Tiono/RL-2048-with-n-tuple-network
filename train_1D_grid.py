@@ -333,6 +333,7 @@ TUPLES = [
     [10, 11, 14, 15],
 ]
 
+
 if __name__ == "__main__":
     import numpy as np
 
@@ -358,7 +359,7 @@ if __name__ == "__main__":
         n_games = 0
         agent = nTupleNewrok(TUPLES)
 
-    n_session = 5000
+    n_session = 10
     n_episode = 100
     print("training")
     try:
